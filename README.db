@@ -1,0 +1,28 @@
+SFX=单次触发型音效
+AMB=循环播放环境音
+MUS=音乐文件
+
+对照"《魁戏楼》音效"表格由上至下:
+
+角色走路 = sfx_footstep_stone_0X
+# X=(1,7).之后可能有不同材质脚步声
+
+获得道具 = sfx_item_acquire
+获得线索 = sfx_clue
+打开箱子 = sfx_chest_open_01/02
+# 两个不同的版本，均可使用。
+
+鼠标点击并拖动道具 = sfx_item_drag
+# 不确定是否需要添加仅点击道具时的音效
+
+打开记事本 = sfx_note_open_01/02 
+# 01的页数少，02的页数多，看哪个比较舒服，或者根据笔记本内容量进行选用
+
+关闭笔记本 = sfx_note_close
+鼠标点击任务 = sfx_quest_click
+翻页 = sfx_note_flip_0X
+# X=(1,5)，避免枯燥于是多备了几种
+
+将剑插入箱子 = sfx_sword_in
+打开抽屉 = sfx_drawer_open
+将剑放在桌子上 = sfx_sword_drop
