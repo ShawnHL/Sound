@@ -5,7 +5,7 @@ MUS=音乐文件
 对照"《魁戏楼》音效"表格由上至下:
 
 角色走路 = sfx_footstep_stone_0X
-# X=(1,7).之后可能有不同材质脚步声
+# X = (1, 7).之后可能有不同材质脚步声
 
 获得道具 = sfx_item_acquire
 获得线索 = sfx_clue
@@ -21,8 +21,17 @@ MUS=音乐文件
 关闭笔记本 = sfx_note_close
 鼠标点击任务 = sfx_quest_click
 翻页 = sfx_note_flip_0X
-# X=(1,5)，避免枯燥于是多备了几种
+# X = (1, 5)，避免枯燥于是多备了几种
 
 将剑插入箱子 = sfx_sword_in
 打开抽屉 = sfx_drawer_open
 将剑放在桌子上 = sfx_sword_drop
+观音显灵 = sfx_GuanYinActivate
+烧纸符 = sfx_burningPaper
+
+大火燃烧声 = amb_Burning_A or amb_Burning_B
+# 看哪个效果觉得好
+猫叫声 = sfx_meow_0X
+# X = (1, 3)，01为刚碰到猫，03为猫逃走。
+打碎花盆 = sfx_vaseBroken
+戏迷讨论声 = amb_chatting
