@@ -5,23 +5,23 @@ MUS=音乐文件
 对照"《魁戏楼》音效"表格由上至下:
 
 角色走路 = sfx_footstep_stone_0X
-# X = (1, 7).之后可能有不同材质脚步声
+  // X = (1, 7).之后可能有不同材质脚步声
 
 获得道具 = sfx_item_acquire
 获得线索 = sfx_clue
 打开箱子 = sfx_chest_open_01/02
-# 两个不同的版本，均可使用。
+  // 两个不同的版本，均可使用。
 
 鼠标点击并拖动道具 = sfx_item_drag
-# 不确定是否需要添加仅点击道具时的音效
+  // 不确定是否需要添加仅点击道具时的音效
 
 打开记事本 = sfx_note_open_01/02 
-# 01的页数少，02的页数多，看哪个比较舒服，或者根据笔记本内容量进行选用
+  // 01的页数少，02的页数多，看哪个比较舒服，或者根据笔记本内容量进行选用
 
 关闭笔记本 = sfx_note_close
 鼠标点击任务 = sfx_quest_click
 翻页 = sfx_note_flip_0X
-# X = (1, 5)，避免枯燥于是多备了几种
+  // X = (1, 5)，避免枯燥于是多备了几种
 
 将剑插入箱子 = sfx_sword_in
 打开抽屉 = sfx_drawer_open
@@ -30,8 +30,22 @@ MUS=音乐文件
 烧纸符 = sfx_burningPaper
 
 大火燃烧声 = amb_Burning_A or amb_Burning_B
-# 看哪个效果觉得好
+  // 看哪个效果觉得好
 猫叫声 = sfx_meow_0X
-# X = (1, 3)，01为刚碰到猫，03为猫逃走。
+  // X = (1, 3)，01为刚碰到猫，03为猫逃走。
 打碎花盆 = sfx_vaseBroken
 戏迷讨论声 = amb_chatting
+
+########### 0218更新
+脚步声 sfx_footstep_stone_0X调整更新
+观音像点墨音效更新：增加了一些光晕音效至sfx_guanYinActivate。
+########### 0218新增音效
+观音光环配合用循环音效 = sfx_guanYinHalo。接在guanYinActivate之后循环播放。
+  // 最好能无缝接着播放，如果不行的话我缝合一下
+
+拿红布 = sfx_redCloth
+观音像披衣服 = sfx_guanYinCloth
+擦镜子血 = sfx_mirrorClean
+给元宝 = sfx_reward
+  // 测试下这个音效听上去感觉如何。动画较长所以留了些余量以防对话走太慢。如果需要循环体则另行提供
+
