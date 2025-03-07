@@ -27,6 +27,8 @@ SC01:
 - 将剑插入箱子 = sfx_sword_in
 - 打开抽屉 = sfx_drawer_open
 - 将剑放在桌子上 = sfx_sword_drop
+// 第一次与镜子交互出现鬼影 = MUS/mus_inMirror_01
+- 女鬼演出 = MUS/mus_inMirror_02
 - 擦镜子上的血 = sfx_mirrorClean
 - 给观音穿衣服 = sfx_guanYinCloth
 - 观音显灵 = sfx_guanYinActivate
