@@ -1,3 +1,14 @@
+########### 2025.03.09
+### 新增文件
+  AMB/amb_S04-S10.wav SC04的环境音效。假想可用到SC10
+### 修改记录
+- sfx_sword_drop 开头音量/淡入淡出修改
+- sfx_sword_in 插剑速度修改
+- sfx_burningPaper 调整杂音
+- sfx_guanYinActivate_02 将sfx_guanYinActivate和sfx_guanYinHalo直接结合并附带足够长淡出的光环效果的结合体。预期可替代sfx_guanYinActivate并且不再需要sfx_guanYinHalo
+- sfx_chest_open 修改文件以替换sfx_chest_open_01和02
+- sfx_item_drag 音效更新
+
 ########### 2025.03.06
 ### 新增文件
   MUS/mus_inMirror_01.wav SC01第一次与镜子交互后的短暂四击头。
