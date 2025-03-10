@@ -8,13 +8,14 @@ MUS=音乐文件
 - 角色走路 = sfx_footstep_stone_0X
     之后可能有不同材质脚步声
 - 获得道具 = sfx_item_acquire
-- 【获得线索】
-- 获得收集品 = sfx_clue
-- 打开箱子 = sfx_chest_open_01/02
-    // 两个不同的版本，均可使用。
+- 获得线索sfx_clue_01-03
+    //3个不同版本，看看哪个最适合。
+- 获得收集品 = sfx_collectable
+    //之前的sfx_clue
+- 打开箱子 = sfx_chest_open
+
 UI:
 - 鼠标点击并拖动道具 = sfx_item_drag
-    // 不确定是否需要添加仅点击道具时的音效
 - 打开记事本 = sfx_note_open_01/02 
     // 01的页数少，02的页数多，看哪个比较舒服，或者根据笔记本内容量进行选用
 - 关闭笔记本 = sfx_note_close
@@ -27,11 +28,12 @@ SC01:
 - 将剑插入箱子 = sfx_sword_in
 - 打开抽屉 = sfx_drawer_open
 - 将剑放在桌子上 = sfx_sword_drop
-// 第一次与镜子交互出现鬼影 = MUS/mus_inMirror_01
+    // 第一次与镜子交互出现鬼影 = MUS/mus_inMirror_01
 - 女鬼演出 = MUS/mus_inMirror_02
 - 擦镜子上的血 = sfx_mirrorClean
 - 给观音穿衣服 = sfx_guanYinCloth
 - 观音显灵 = sfx_guanYinActivate
+- 观音显灵+光环，自带淡出 = sfx_guanYinActivate_02
 - 观音显灵后产生光环 = sfx_guanYinHalo
 - 烧纸符 = sfx_burningPaper
 SC02:
@@ -44,3 +46,7 @@ SC03:
 - 戏迷讨论声 = amb_chatting
   //同时伴有燃烧音效，不必再叠加SC02的大火燃烧声
 - 赏元宝音效 = sfx_reward
+SC04：
+    //以下文件仅做了初步音量平衡，后续会调整更新
+- 后院环境音 = amb_S04-S10
+- 耳光声 = sfx_slap
