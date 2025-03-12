@@ -1,3 +1,15 @@
+########### 2025.03.11
+### 新增文件
+  AMB/amb_burningPaperMoney.wav 烧纸钱场景循环环境音
+  SFX/sfx_footstep_stone_8-15 新的一组脚步声，和1-7是不同的场次录制的。
+  SFX/sfx_statueWang_handAdjust_01.wav 王灵官雕像，调整手指音效1。单独一声的机械音
+  SFX/sfx_statueWang_handAdjust_02.wav 王灵官雕像，调整手指备选音效。3声咔哒模拟齿轮效果
+  SFX/sfx_statueWang_handSuccess 王灵官雕像，手指到达正确位置时的音效
+  SFX/sfx_door_Open SC04及以后，小院场景开门的音效
+### 修改记录
+- sfx_redCloth 音效调整
+- sfx_guanYinCloth 音效调整
+
 ########### 2025.03.09
 ### 新增文件
   AMB/amb_S04-S10.wav SC04的环境音效。假想可用到SC10
