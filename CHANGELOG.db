@@ -16,6 +16,8 @@
   //替换合并为guanYinActivate.wav
 - sfx_HongLou_StageIntro.wav
   //不再需要StageIntro.wav
+### 文件名修改
+- sfx_collectable_01 => sfx_collectible 输入错误&版本修正
   
 ########### 2025.03.11
 ### 新增文件
@@ -32,7 +34,7 @@
 ########### 2025.03.09
 ### 新增文件
   AMB/amb_S04-S10.wav SC04的环境音效。假想可用到SC10
-  SFX/sfx_collectble_01 收集品音效，实际为之前版本的sfx_clue。待检查。
+  SFX/sfx_collectble 收集品音效，实际为之前版本的sfx_clue。待检查。
 ### 修改记录
 - sfx_sword_drop 开头音量/淡入淡出修改
 - sfx_sword_in 插剑速度修改
