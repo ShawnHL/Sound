@@ -1,3 +1,22 @@
+########### 2025.03.13
+### 修改记录
+- amb_chatting 去除燃烧音
+- mus_HongLou_Corridor 音效调整
+- mus_HongLou_Sijitou 音效调整
+- sfx_burningPaper
+- sfx_item_drag
+- sfx_mirrorClean 去除液体海绵音
+- sfx_reward 长度调整
+### 删除文件
+- sfx_chest_open_01.wav
+- sfx_chest_open_02.wav
+  //替换合并为sfx_chest_open.wav
+- sfx_guanYinActivate_02.wav
+- sfx_guanYinHalo.wav
+  //替换合并为guanYinActivate.wav
+- sfx_HongLou_StageIntro.wav
+  //不再需要StageIntro.wav
+  
 ########### 2025.03.11
 ### 新增文件
   AMB/amb_burningPaperMoney.wav 烧纸钱场景循环环境音
