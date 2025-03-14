@@ -16,6 +16,8 @@
   //替换合并为guanYinActivate.wav
 - sfx_HongLou_StageIntro.wav
   //不再需要StageIntro.wav
+### 文件名修改
+- sfx_collectable_01 => sfx_collectible 输入错误&版本修正
   
 ########### 2025.03.11
 ### 新增文件
