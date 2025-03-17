@@ -1,4 +1,13 @@
 ########### 2025.03.13
+### 文件名修改
+- sfx_note_open_01/02 => sfx_note_open 合并版本
+### 新增文件
+  SFX/sfx_door_open
+  SFX/sfx_door_close 后院场景的关门开门。进屋里开门，出屋回到院子关门
+### 修改记录
+- sfx_note_flip_01-05 淡入淡出调整&音量平衡
+
+########### 2025.03.13
 ### 修改记录
 - amb_chatting 去除燃烧音
 - mus_HongLou_Corridor 音效调整

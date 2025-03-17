@@ -10,14 +10,13 @@ MUS=音乐文件
 - 获得道具 = SFX/sfx_item_acquire
 - 获得线索 = SFX/sfx_clue_01-03
     //3个不同版本，看看哪个最适合。
-- 获得收集品 = SFX/sfx_collectable
+- 获得收集品 = SFX/sfx_collectible
     //之前的SFX/sfx_clue
 - 打开箱子 = SFX/sfx_chest_open
 
 UI:
 - 鼠标点击并拖动道具 = SFX/sfx_item_drag
-- 打开记事本 = SFX/sfx_note_open_01/02 
-    // 01的页数少，02的页数多，看哪个比较舒服，或者根据笔记本内容量进行选用
+- 打开记事本 = SFX/sfx_note_open
 - 关闭笔记本 = SFX/sfx_note_close
 - 鼠标点击任务 = SFX/sfx_quest_click
 - 翻页 = SFX/sfx_note_flip_0X
@@ -32,19 +31,20 @@ SC01:
 - 女鬼演出 = MUS/mus_inMirror_02
 - 擦镜子上的血 = SFX/sfx_mirrorClean
 - 给观音穿衣服 = SFX/sfx_guanYinCloth
-- 观音显灵 = SFX/sfx_guanYinActivate
-- 观音显灵+光环，自带淡出 = SFX/sfx_guanYinActivate_02
-- 观音显灵后产生光环 = SFX/sfx_guanYinHalo
+- 观音显灵+光环，自带淡出 = SFX/sfx_guanYinActivate
 - 烧纸符 = SFX/sfx_burningPaper
+- 烧完符纸后的戏台演出声 = MUS/mus_HongLou_Sijitou
 SC02:
 - 大火燃烧声 = AMB/amb_Burning_A or AMB/amb_Burning_B
   // 看哪个效果觉得好
+- 此阶段的后台演出声(可循环) = MUS/mus_HongLou_Corridor
 - 猫叫声 = SFX/sfx_meow_0X
-  // X = (1, 3)，01为刚碰到猫，03为猫逃走。
+  // X = (1, 3)，01为一进场景结束场景引导对话，02为点击猫，03为猫逃走。
 - 打碎花盆 = SFX/sfx_vaseBroken
 SC03:
+- 此阶段的台上演出声(可循环) = MUS/mus_HongLou_StageLoop
 - 戏迷讨论声 = AMB/amb_chatting
-  //同时伴有燃烧音效，不必再叠加SC02的大火燃烧声
+  //无燃烧音效
 - 赏元宝音效 = SFX/sfx_reward
 
 ####### 以下文件仅做了初步音量平衡，后续会调整更新
@@ -57,3 +57,4 @@ SC05:
 - 王灵官雕像，掰动手指音效 = SFX/sfx_statueWang_handAdjust_01 & 02
     //01为一声，02为3声连续，看哪个版本感觉更好
 - 王灵官雕像， 手指掰到正确位置的音效 = SFX/sfx_statueWang_handSuccess
+- 开门/关门 = sfx_door_open / sfx_door_close
