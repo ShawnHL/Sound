@@ -16,8 +16,7 @@ MUS=音乐文件
 
 UI:
 - 鼠标点击并拖动道具 = SFX/sfx_item_drag
-- 打开记事本 = SFX/sfx_note_open_01/02 
-    // 01的页数少，02的页数多，看哪个比较舒服，或者根据笔记本内容量进行选用
+- 打开记事本 = SFX/sfx_note_open
 - 关闭笔记本 = SFX/sfx_note_close
 - 鼠标点击任务 = SFX/sfx_quest_click
 - 翻页 = SFX/sfx_note_flip_0X
@@ -58,3 +57,4 @@ SC05:
 - 王灵官雕像，掰动手指音效 = SFX/sfx_statueWang_handAdjust_01 & 02
     //01为一声，02为3声连续，看哪个版本感觉更好
 - 王灵官雕像， 手指掰到正确位置的音效 = SFX/sfx_statueWang_handSuccess
+- 开门/关门 = sfx_door_open / sfx_door_close
