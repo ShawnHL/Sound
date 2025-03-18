@@ -1,4 +1,15 @@
-########### 2025.03.13
+########### 2025.03.17
+### 新增文件
+  AMB/amb_hens 后院场景母鸡环境音循环
+  SFX/sfx_turningStone 下地窖转石敢当
+### 修改记录
+  amb_chatting 调整循环接头
+  amb_SC04-SC10 调整循环接头
+  mus_SC01-03_loop 调整循环接头
+  sfx_slap 调整效果
+  sfx_vaseBroken 调整效果
+
+########### 2025.03.15
 ### 文件名修改
 - sfx_note_open_01/02 => sfx_note_open 合并版本
 ### 新增文件
