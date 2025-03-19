@@ -1,3 +1,19 @@
+########### 2025.03.18
+### 新增文件
+  AMB/amb_hens 后院场景母鸡环境音循环
+  SFX/sfx_statueWang_takeMace 取下王灵官鞭 
+  SFX/sfx_hens_triggered 触发鸡叫提示去要鸡
+  SFX/sfx_hens_escape 鸡被惊动跑散
+  SFX/sfx_coins 铜币音效
+  SFX/sfx_keyUnlock 钥匙开柴房门锁
+  SFX/sfx_statueWang_eye01/02 为王灵官放眼睛。01是刻意加了点血肉声，02是纯木头声。
+  AMB/amb_hens_withWang 王大厨手里的鸡扑腾声
+  AMB/amb_hens_inYard 鸡群在后院里的循环唠叨声
+### 修改记录
+  SFX/sfx_statueWang_handAdjust_01/02 调整王灵官手势，01和02对比一下哪个觉得更好
+### 文件名修改
+- amb_hens => amb_hens_inYard 文件具体场景标明
+
 ########### 2025.03.17
 ### 新增文件
   AMB/amb_hens 后院场景母鸡环境音循环
