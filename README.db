@@ -46,7 +46,6 @@ SC03:
 - 戏迷讨论声 = AMB/amb_chatting
   //无燃烧音效
 - 赏元宝音效 = SFX/sfx_reward
-
 SC04：
 - 后院环境音 = AMB/amb_S04-S10
 - 耳光声 = SFX/sfx_slap
@@ -54,10 +53,21 @@ SC04：
 - SC04及以后，小院场景开门的音效 =  SFX/sfx_door_Open 
 SC05:
 - 王灵官雕像，掰动手指音效 = SFX/sfx_statueWang_handAdjust_01 & 02
-    //01为一声，02为3声连续，看哪个版本感觉更好
+    //01为一声，02为2声连续，看哪个版本感觉更好
 - 王灵官雕像， 手指掰到正确位置的音效 = SFX/sfx_statueWang_handSuccess
-- 开门/关门 = sfx_door_open / sfx_door_close
+- 王灵官雕像，取下锏的音效 = SFX/sfx_statueWang_takeMace 
+- 王灵官雕像，为王灵官放眼睛 = SFX/sfx_statueWang_eye01/02 
+    //01是刻意加了点血肉声，02是纯木头声。看看哪个感觉比较喜欢
+- 开门/关门 = SFX/sfx_door_open / SFX/sfx_door_close
+- 杂物间听到鸡叫去找鸡 = SFX/sfx_hens_triggered 
 SC06:
-- 后院场景母鸡环境音循环 = amb_hens 
+- 后院场景母鸡环境音循环 = AMB/amb_hens_inYard
+- 鸡被惊动跑散 = SFX/sfx_hens_escape 
+SC07:
+- 王大厨手里的鸡扑腾声 = AMB/amb_hens_withWang 
+- 使用铜钱道具 = SFX/sfx_coins 
+SC10: 
+- 钥匙开柴房门锁 = SFX/sfx_keyUnlock 
 SC11：
 - 下地窖转石敢当 = sfx_turningStone 
+  AMB/amb_hens_inYard 鸡群在后院里的循环唠叨声
