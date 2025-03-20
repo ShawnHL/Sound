@@ -6,6 +6,7 @@
   SFX/sfx_statueWang_handAdjust 版本合并&调整
   SFX/sfx_statueWang_eye 版本合并&调整
   SFX/sfx_statueWang_handSuccess 音效调整
+  SFX/sfx_turningStone 音效合并，转动石敢当和地窖门打开为同一个音效。
 ### 文件格式调整
 - AMB和MUS中所有.wav格式文件被替换为.ogg文件
 
