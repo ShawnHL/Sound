@@ -52,12 +52,10 @@ SC04：
 - 烧纸钱场景循环环境音 = AMB/amb_burningPaperMoney
 - SC04及以后，小院场景开门的音效 =  SFX/sfx_door_Open 
 SC05:
-- 王灵官雕像，掰动手指音效 = SFX/sfx_statueWang_handAdjust_01 & 02
-    //01为一声，02为2声连续，看哪个版本感觉更好
-- 王灵官雕像， 手指掰到正确位置的音效 = SFX/sfx_statueWang_handSuccess
+- 王灵官雕像，掰动手指音效 = SFX/sfx_statueWang_handAdjust
+- 王灵官雕像，手指掰到正确位置的音效 = SFX/sfx_statueWang_handSuccess
 - 王灵官雕像，取下锏的音效 = SFX/sfx_statueWang_takeMace 
-- 王灵官雕像，为王灵官放眼睛 = SFX/sfx_statueWang_eye01/02 
-    //01是刻意加了点血肉声，02是纯木头声。看看哪个感觉比较喜欢
+- 王灵官雕像，为王灵官放眼睛 = SFX/sfx_statueWang_eye
 - 开门/关门 = SFX/sfx_door_open / SFX/sfx_door_close
 - 杂物间听到鸡叫去找鸡 = SFX/sfx_hens_triggered 
 SC06:
@@ -66,6 +64,10 @@ SC06:
 SC07:
 - 王大厨手里的鸡扑腾声 = AMB/amb_hens_withWang 
 - 使用铜钱道具 = SFX/sfx_coins 
+SC08:
+- 小张从椅子上摔下来 = SFX/sfx_zhangFalldown
+SC09:
+- 小孩脚印音效 = SFX/sfx_kid_steps
 SC10: 
 - 钥匙开柴房门锁 = SFX/sfx_keyUnlock 
 SC11：
