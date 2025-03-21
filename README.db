@@ -18,9 +18,9 @@ UI:
 - 鼠标点击并拖动道具 = SFX/sfx_item_drag
 - 打开记事本 = SFX/sfx_note_open
 - 关闭笔记本 = SFX/sfx_note_close
-- 鼠标点击任务 = SFX/sfx_quest_click
+- 鼠标点击任务 = SFX/sfx_note_clickText = 笔记本里所有文字相关的点击音效
 - 翻页 = SFX/sfx_note_flip_0X
-  // X = (1, 5)，避免枯燥于是多备了几种
+  // X = (1, 5)，避免枯燥于是多备了几种。首选3/5
 SC01:
 - 掀开红布 = SFX/sfx_redCloth
 - 01-03场景背景音乐 = MUS/mus_SC01-03_loop
@@ -51,6 +51,7 @@ SC04：
 - 耳光声 = SFX/sfx_slap
 - 烧纸钱场景循环环境音 = AMB/amb_burningPaperMoney
 - SC04及以后，小院场景开门的音效 =  SFX/sfx_door_Open 
+- 鸡群在后院里的循环唠叨声 = amb_hens_inYard 
 SC05:
 - 王灵官雕像，掰动手指音效 = SFX/sfx_statueWang_handAdjust
 - 王灵官雕像，手指掰到正确位置的音效 = SFX/sfx_statueWang_handSuccess
@@ -72,4 +73,3 @@ SC10:
 - 钥匙开柴房门锁 = SFX/sfx_keyUnlock 
 SC11：
 - 下地窖转石敢当 = sfx_turningStone 
-  AMB/amb_hens_inYard 鸡群在后院里的循环唠叨声
