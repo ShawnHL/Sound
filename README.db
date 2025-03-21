@@ -18,9 +18,12 @@ UI:
 - 鼠标点击并拖动道具 = SFX/sfx_item_drag
 - 打开记事本 = SFX/sfx_note_open
 - 关闭笔记本 = SFX/sfx_note_close
-- 鼠标点击任务 = SFX/sfx_note_clickText = 笔记本里所有文字相关的点击音效
+- 鼠标点击任务，以及点击所有"文字"相关的内容(比如形式为文字的选项或按钮) = SFX/sfx_note_clickText
 - 翻页 = SFX/sfx_note_flip_0X
   // X = (1, 5)，避免枯燥于是多备了几种。首选3/5
+- 点击收集品 = sfx_note_clickCollectible
+- 点击收集品查看详细文字 = sfx_note_openCollectible
+- 关闭查看收集品详细文字的界面 = sfx_note_closeCollectible
 SC01:
 - 掀开红布 = SFX/sfx_redCloth
 - 01-03场景背景音乐 = MUS/mus_SC01-03_loop
@@ -62,6 +65,8 @@ SC05:
 SC06:
 - 后院场景母鸡环境音循环 = AMB/amb_hens_inYard
 - 鸡被惊动跑散 = SFX/sfx_hens_escape 
+- 触发抓鸡后，单只鸡在院子里有两个动态变化的音效(跑开，和阿大对话前从树上掉下来) = sfx_hens_singleRunFall
+- 触发抓鸡后，场景里有没抓到的鸡时的循环环境音 = amb_hens_single
 SC07:
 - 王大厨手里的鸡扑腾声 = AMB/amb_hens_withWang 
 - 使用铜钱道具 = SFX/sfx_coins 
