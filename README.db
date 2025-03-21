@@ -18,9 +18,12 @@ UI:
 - 鼠标点击并拖动道具 = SFX/sfx_item_drag
 - 打开记事本 = SFX/sfx_note_open
 - 关闭笔记本 = SFX/sfx_note_close
-- 鼠标点击任务 = SFX/sfx_quest_click
+- 鼠标点击任务，以及点击所有"文字"相关的内容(比如形式为文字的选项或按钮) = SFX/sfx_note_clickText
 - 翻页 = SFX/sfx_note_flip_0X
-  // X = (1, 5)，避免枯燥于是多备了几种
+  // X = (1, 5)，避免枯燥于是多备了几种。首选3/5
+- 点击收集品 = sfx_note_clickCollectible
+- 点击收集品查看详细文字 = sfx_note_openCollectible
+- 关闭查看收集品详细文字的界面 = sfx_note_closeCollectible
 SC01:
 - 掀开红布 = SFX/sfx_redCloth
 - 01-03场景背景音乐 = MUS/mus_SC01-03_loop
@@ -51,6 +54,7 @@ SC04：
 - 耳光声 = SFX/sfx_slap
 - 烧纸钱场景循环环境音 = AMB/amb_burningPaperMoney
 - SC04及以后，小院场景开门的音效 =  SFX/sfx_door_Open 
+- 鸡群在后院里的循环唠叨声 = amb_hens_inYard 
 SC05:
 - 王灵官雕像，掰动手指音效 = SFX/sfx_statueWang_handAdjust
 - 王灵官雕像，手指掰到正确位置的音效 = SFX/sfx_statueWang_handSuccess
@@ -61,6 +65,8 @@ SC05:
 SC06:
 - 后院场景母鸡环境音循环 = AMB/amb_hens_inYard
 - 鸡被惊动跑散 = SFX/sfx_hens_escape 
+- 触发抓鸡后，单只鸡在院子里有两个动态变化的音效(跑开，和阿大对话前从树上掉下来) = sfx_hens_singleRunFall
+- 触发抓鸡后，场景里有没抓到的鸡时的循环环境音 = amb_hens_single
 SC07:
 - 王大厨手里的鸡扑腾声 = AMB/amb_hens_withWang 
 - 使用铜钱道具 = SFX/sfx_coins 
@@ -72,4 +78,3 @@ SC10:
 - 钥匙开柴房门锁 = SFX/sfx_keyUnlock 
 SC11：
 - 下地窖转石敢当 = sfx_turningStone 
-  AMB/amb_hens_inYard 鸡群在后院里的循环唠叨声

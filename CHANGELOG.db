@@ -1,3 +1,17 @@
+########### 2025.03.20
+### 新增文件
+  SFX/sfx_hens_singleRunFall 开始找鸡后有一个鸡从院子里跑进屋里，有一个鸡从树上掉下来的时候的音效
+  SFX/sfx_note_clickCollectible 笔记本，点击格子里的收集品 
+  SFX/sfx_note_closeCollectible 关闭收集品文字详情
+  SFX/sfx_note_openCollectible 点击收集品右侧界面后出现文字详情界面
+  SFX/sfx_note_clickText 笔记本，所有与文字相关的选项、任务等的点击音效
+  AMB/amb_hens_single 开始找鸡以后画面上/场景中有没有抓到的鸡的时候的循环环境音。加载一个循环就行，不用多只鸡加载好几个。
+### 修改记录
+  AMB/amb_hens_inYard 音量调整
+  SFX/sfx_note_close 关闭笔记本音效调整
+### 文件替换
+  SFX/sfx_quest_click => SFX/sfx_note_clickText 整合所有类似性质音效，标明作用
+
 ########### 2025.03.18
 ### 新增文件
   SFX/sfx_zhangFalldown 小张从椅子上摔下来
@@ -6,6 +20,7 @@
   SFX/sfx_statueWang_handAdjust 版本合并&调整
   SFX/sfx_statueWang_eye 版本合并&调整
   SFX/sfx_statueWang_handSuccess 音效调整
+  SFX/sfx_turningStone 音效合并，转动石敢当和地窖门打开为同一个音效。
 ### 文件格式调整
 - AMB和MUS中所有.wav格式文件被替换为.ogg文件
 
