@@ -1,3 +1,9 @@
+########### 2025.03.21
+### 修改记录
+  SFX/sfx_note_clickText 音效调整
+  SFX/sfx_statueWang_handSuccess 音效调整
+  SFX/sfx_hens_triggered 音效修正
+
 ########### 2025.03.20
 ### 新增文件
   SFX/sfx_hens_singleRunFall 开始找鸡后有一个鸡从院子里跑进屋里，有一个鸡从树上掉下来的时候的音效
