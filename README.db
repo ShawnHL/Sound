@@ -6,6 +6,7 @@ MUS=音乐文件，后缀有loop的为可循环播放，无loop通常为一次�
 
 基础/通用：
 - 角色走路 = SFX/sfx_footstep_stone_XX
+- 角色走路-地窖 = SFX/sfx_footstep_cellar_XX
     之后可能有不同材质脚步声
 - 获得道具 = SFX/sfx_item_acquire
 - 获得线索 = SFX/sfx_clue_01-03
