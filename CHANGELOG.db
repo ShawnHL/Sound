@@ -1,3 +1,21 @@
+########### 2025.03.30
+### 新增文件
+  AMB/amb_cageShaking 笼子摇动的循环音
+  AMB/amb_creatureMoan 笼子里怪物循环声
+  AMB/amb_frog 青蛙出水后在石头上待机的循环音
+  AMB/amb_SC11 地窖整体的环境音
+  MUS/mus_SC11_loop 地窖部分背景音乐
+  SFX/sfx_footstep_cellarStone_01-05 地窖部分石头材质脚步声
+  SFX/sfx_chuckling 拿到纸女鬼后的音效
+  SFX/sfx_addOil 添加灯油的音效
+  SFX/sfx_footstep_cellarWood_01-07 地窖部分木头材质脚步声
+  SFX/sfx_frogAppear 青蛙出水再跳到石头顶的音效
+  SFX/sfx_spiderWeb 触发蜘蛛网后的音效
+### 修改记录
+  SFX/sfx_statueWang_handSuccess 音效更新，增加了机关摩擦声
+### 文件名修改
+  SFX/sfx_footstep_cave_x => SFX/sfx_footstep_cellarWood_01-07 or SFX/sfx_footstep_cellarStone_01-05 区分材质
+
 ########### 2025.03.27
 ### 新增文件
   SFX/sfx_footstep_cave_X 地窖里的脚步声
