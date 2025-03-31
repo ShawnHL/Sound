@@ -6,8 +6,8 @@ MUS=音乐文件，后缀有loop的为可循环播放，无loop通常为一次�
 
 基础/通用：
 - 角色走路 = SFX/sfx_footstep_stone_XX
-- 角色走路-地窖 = SFX/sfx_footstep_cellar_XX
-    之后可能有不同材质脚步声
+- 角色走路-地窖 = 石头材质脚步声：SFX/sfx_footstep_cellarStone_01-05
+                 木头材质脚步声：SFX/sfx_footstep_cellarWood_01-07
 - 获得道具 = SFX/sfx_item_acquire
 - 获得线索 = SFX/sfx_clue_01-03
     //3个不同版本，看看哪个最适合。
@@ -78,4 +78,13 @@ SC09:
 SC10: 
 - 钥匙开柴房门锁 = SFX/sfx_keyUnlock 
 SC11：
-- 下地窖转石敢当 = sfx_turningStone 
+- 下地窖转石敢当 = SFX/sfx_turningStone 
+- 地窖部分背景音乐 = MUS/mus_SC11_loop 
+- 地窖整体的环境音 = AMB/amb_SC11 
+- 笼子摇动的循环音 = AMB/amb_cageShaking 
+- 笼子里怪物循环声 = AMB/amb_creatureMoan 
+- 青蛙出水再跳到石头顶的音效 = SFX/sfx_frogAppear 
+- 青蛙出水后在石头上待机的循环音 = AMB/amb_frog 
+- 触发蜘蛛网后的音效 = SFX/sfx_spiderWeb 
+- 添加灯油的音效 = SFX/sfx_addOil 
+- 拿到纸女鬼后的音效 = SFX/sfx_chuckling 
