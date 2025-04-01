@@ -1,3 +1,15 @@
+########### 2025.03.31
+### 新增文件
+  SFX/sfx_frog_jump 青蛙在石头上蹦跶的湿漉漉的声音
+  SFX/sfx_frog_singleSound 青蛙单独一次的叫声
+  SFX/sfx_frog_splash 青蛙出水声
+### 修改文件
+  AMB/amb_frog 调整声音头
+  AMB/amb_SC11 调整环境音设计方向。更空旷
+  MUS/mus_SC11_loop 调整音乐填充程度。出于减少音乐质量损失的考虑所以是全音量的，使用时需要适量调低。个人建议-5db
+### 删除文件
+  SFX/sfx_frogAppear 文件拆分=>
+
 ########### 2025.03.30
 ### 新增文件
   AMB/amb_cageShaking 笼子摇动的循环音

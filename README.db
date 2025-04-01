@@ -80,10 +80,14 @@ SC10:
 SC11：
 - 下地窖转石敢当 = SFX/sfx_turningStone 
 - 地窖部分背景音乐 = MUS/mus_SC11_loop 
+  //出于减少音乐质量损失的考虑所以是全音量的，使用时需要适量调低。个人建议-5db
 - 地窖整体的环境音 = AMB/amb_SC11 
 - 笼子摇动的循环音 = AMB/amb_cageShaking 
 - 笼子里怪物循环声 = AMB/amb_creatureMoan 
-- 青蛙出水再跳到石头顶的音效 = SFX/sfx_frogAppear 
+- 青蛙出水声 = SFX/sfx_frog_splash 
+- 青蛙在石头上蹦跶的湿漉漉的声音 = SFX/sfx_frog_jump 
+- 青蛙单独一次的叫声 = SFX/sfx_frog_singleSound 
+  //以上三个用于青蛙从水里跳出来直到石头顶的过程
 - 青蛙出水后在石头上待机的循环音 = AMB/amb_frog 
 - 触发蜘蛛网后的音效 = SFX/sfx_spiderWeb 
 - 添加灯油的音效 = SFX/sfx_addOil 
