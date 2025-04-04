@@ -1,3 +1,36 @@
+
+########### 2025.04.03
+### 新增文件
+  AMB/amb_SC15_01 场景15最开始普通森林的环境音
+  AMB/amb_SC15_02 场景15光秃秃森林的环境音
+  AMB/amb_birdcage 鸟笼部分循环环境音，包含鸟叫和树枝嘎吱声。参考视频0：37
+  AMB/amb_fishpond_01 普通鱼池的循环环境音
+  AMB/amb_fishpond_02 死鱼池的循环环境音
+  AMB/amb_burningSC15 装人的火圈以及红光满面森林的火盆循环环境音。参考视频3:34
+  AMB/amb_burningPortal 燃烧传送门的循环音效。和传送门音效同时触发并循环。参考视频4：54
+  MUS/mus_SC15_01 场景15光秃秃森林的背景音乐
+  MUS/mus_SC15_02 场景15红光满面森林的背景音乐
+  SFX/sfx_footstep_forest_0x 森林中的脚步声
+  SFX/sfx_child_laugh_01 较长娃娃笑。森林最开始"谁要陪我玩游戏"用.参考视频0:05
+  SFX/sfx_child_cry 孩子哭。森林最开始，打开箱子用。参考视频0:16
+  SFX/sfx_child_laugh_02 短娃娃笑。参考视频0:20，以及4：23
+  SFX/sfx_fox 狐狸出现时的狐狸叫。参考视频0：57
+  SFX/sfx_birdcage_fall 笼子掉落音效。参考视频2：02
+  SFX/sfx_birdcage_openSmall 钥匙打开装麻雀的小鸟笼音效
+  SFX/sfx_birdcage_openLarge 用鸟鸟魔法打开装人的大鸟笼音效。参考视频2：24
+  SFX/sfx_firecircleRemove 火圈消失的音效
+  SFX/sfx_sparrowHitBanPai 麻雀撞班牌音效。参考视频4：34
+  SFX/sfx_burningPortal 燃烧传送门的打开音效。和循环音效同时触发。
+### 修改文件
+  SFX/sfx_slap SC04的耳光音效更新
+### 文件名修改
+  MUS/mus_SC15_sample => MUS/mus_SC15_01 根据场景需求进行版本标注
+
+########### 2025.04.02
+### 新增文件
+  AMB/amb_SC15.ogg 森林场景的环境音。音量平衡尚未完成，使用时可能需要放大音量
+  MUS/mus_SC15_sample.ogg 临时性音乐文件，风格参考
+
 ########### 2025.03.31
 ### 新增文件
   SFX/sfx_frog_jump 青蛙在石头上蹦跶的湿漉漉的声音
