@@ -54,6 +54,7 @@ SC03:
 SC04：
 - 后院环境音 = AMB/amb_S04-S10
 - 耳光声 = SFX/sfx_slap
+- 掉纸钱特写的音效 = SFX/sfx_fallingPaperMoney 
 - 烧纸钱场景循环环境音 = AMB/amb_burningPaperMoney
 - SC04及以后，小院场景开门的音效 =  SFX/sfx_door_Open 
 - 鸡群在后院里的循环唠叨声 = amb_hens_inYard 
@@ -93,6 +94,8 @@ SC11：
 - 触发蜘蛛网后的音效 = SFX/sfx_spiderWeb 
 - 添加灯油的音效 = SFX/sfx_addOil 
 - 拿到纸女鬼后的音效 = SFX/sfx_chuckling 
+SC13-14:
+- 环境音 = AMB/amb_SC13-14
 SC15:
 - 场景15最开始普通森林的环境音 = AMB/amb_SC15_01 
 - 场景15光秃秃森林的环境音 = AMB/amb_SC15_02 
@@ -113,3 +116,9 @@ SC15:
 - 钥匙打开装麻雀的小鸟笼音效 = SFX/sfx_birdcage_openSmall 
 - 用鸟鸟魔法打开装人的大鸟笼音效(参考视频2：24) =  SFX/sfx_birdcage_openLarge 
 - 麻雀撞班牌音效(参考视频4：34) = SFX/sfx_sparrowHitBanPai
+SC16:
+- 山洞场景的背景音乐1，最开始没遇到神像&石碑的时候 = MUS/mus_SC16_01_loop 
+- 刚遇到神像时的触发音乐(于参考视频00:06开始播放) = SFX/sfx_caveMeetStatue 
+- 遇到神像石碑之后的背景音乐。sfx_caveMeetStatue开始播放后替换(于参考视频00:11开始播放) = MUS/mus_SC16_02_loop 
+- 神像开脸演出时的音乐音效演出(于参考视频00:34开始播放) = SFX/sfx_statueFaceOpen 
+- 神像开脸之后的背景音乐。sfx_statueFaceOpen播放快结束后开始播放(于参考视频00:58.5开始播放) = MUS/mus_SC16_03_loop 
