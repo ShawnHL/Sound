@@ -2,6 +2,11 @@
 ### 新增文件
   AMB/amb_SC13-14 场景13-14戏楼部分的环境音。
   SFX/sfx_fallingPaperMoney 场景4掉纸钱特写的音效
+  MUS/mus_SC16_01_loop 山洞场景的背景音乐1，最开始没遇到神像&石碑的时候
+  MUS/mus_SC16_02_loop 遇到神像石碑之后的背景音乐。sfx_caveMeetStatue开始播放后替换
+  MUS/mus_SC16_03_loop 神像开脸之后的背景音乐。sfx_statueFaceOpen播放快结束后开始播放
+  SFX/sfx_caveMeetStatue 刚遇到神像时的触发音乐
+  SFX/sfx_statueFaceOpen 神像开脸演出时的音乐音效演出
 ### 修改文件
   MUS/mus_SC15_01
   MUS/mus_SC15_02 音乐替换
