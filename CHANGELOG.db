@@ -1,4 +1,19 @@
 ########### 2025.04.10
+### 文件管理更新
+  现在文件夹管理分类不再以大类SFX/MUS/AMB来整理，以大章节来进行整理
+  目前索引为：General：UI相关、脚步声相关等通用类音效
+            SC0X：根据场景分类。目前为:01-03梦境，04-10后院相关(包含柴房石敢当但不包含地窖)，11地窖，13-14戏楼，15森林，16山洞
+### 新增文件
+  General/sfx_note_switch 切换收集任务/收集按钮
+### 修改文件
+  SC04-10/sfx_slap 调整音效
+  SC04-10/sfx_statueWang_eye 调整音效
+  General/sfx_note_clickText 调整音效
+  SC16/sfx_statueFaceOpen 调整音效
+### 文件替换
+  General/sfx_note_flip_01-05 =>sfx_note_flip 整合版本
+
+########### 2025.04.10
 ### 新增文件
   AMB/amb_SC13-14 场景13-14戏楼部分的环境音。
   SFX/sfx_fallingPaperMoney 场景4掉纸钱特写的音效
