@@ -1,3 +1,12 @@
+########### 2025.04.21
+### 新增文件
+  SC11/sfx_failedLaugh 地窖关卡时限结束后的失败女鬼音效
+  SC11/sfx_randomChuckle_01-06 地窖关卡随机触发的笑声
+### 修改文件
+  SC04-10/sfx_hens_triggered 后院触发鸡事件的音效，调整音效相位及效果
+### 文件名修改
+  SC15/sfx_sparrowHitBanPai => sfx_hitBanPai 根据效果修改文件名并修改音效
+
 ########### 2025.04.10
 ### 文件管理更新
   现在文件夹管理分类不再以大类SFX/MUS/AMB来整理，以大章节来进行整理
