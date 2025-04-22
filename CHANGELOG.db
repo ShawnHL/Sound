@@ -1,0 +1,238 @@
+########### 2025.04.10
+### 文件管理更新
+  现在文件夹管理分类不再以大类SFX/MUS/AMB来整理，以大章节来进行整理
+  目前索引为：General：UI相关、脚步声相关等通用类音效
+            SC0X：根据场景分类。目前为:01-03梦境，04-10后院相关(包含柴房石敢当但不包含地窖)，11地窖，13-14戏楼，15森林，16山洞
+### 新增文件
+  General/sfx_note_switch 切换收集任务/收集按钮
+### 修改文件
+  SC04-10/sfx_slap 调整音效
+  SC04-10/sfx_statueWang_eye 调整音效
+  General/sfx_note_clickText 调整音效
+  SC16/sfx_statueFaceOpen 调整音效
+### 文件替换
+  General/sfx_note_flip_01-05 =>sfx_note_flip 整合版本
+
+########### 2025.04.10
+### 新增文件
+  AMB/amb_SC13-14 场景13-14戏楼部分的环境音。
+  SFX/sfx_fallingPaperMoney 场景4掉纸钱特写的音效
+  MUS/mus_SC16_01_loop 山洞场景的背景音乐1，最开始没遇到神像&石碑的时候
+  MUS/mus_SC16_02_loop 遇到神像石碑之后的背景音乐。sfx_caveMeetStatue开始播放后替换
+  MUS/mus_SC16_03_loop 神像开脸之后的背景音乐。sfx_statueFaceOpen播放快结束后开始播放
+  SFX/sfx_caveMeetStatue 刚遇到神像时的触发音乐
+  SFX/sfx_statueFaceOpen 神像开脸演出时的音乐音效演出
+### 修改文件
+  MUS/mus_SC15_01
+  MUS/mus_SC15_02 音乐替换
+
+########### 2025.04.03
+### 新增文件
+  AMB/amb_SC15_01 场景15最开始普通森林的环境音
+  AMB/amb_SC15_02 场景15光秃秃森林的环境音
+  AMB/amb_birdcage 鸟笼部分循环环境音，包含鸟叫和树枝嘎吱声。参考视频0：37
+  AMB/amb_fishpond_01 普通鱼池的循环环境音
+  AMB/amb_fishpond_02 死鱼池的循环环境音
+  AMB/amb_burningSC15 装人的火圈以及红光满面森林的火盆循环环境音。参考视频3:34
+  AMB/amb_burningPortal 燃烧传送门的循环音效。和传送门音效同时触发并循环。参考视频4：54
+  MUS/mus_SC15_01 场景15光秃秃森林的背景音乐
+  MUS/mus_SC15_02 场景15红光满面森林的背景音乐
+  SFX/sfx_footstep_forest_0x 森林中的脚步声
+  SFX/sfx_child_laugh_01 较长娃娃笑。森林最开始"谁要陪我玩游戏"用.参考视频0:05
+  SFX/sfx_child_cry 孩子哭。森林最开始，打开箱子用。参考视频0:16
+  SFX/sfx_child_laugh_02 短娃娃笑。参考视频0:20，以及4：23
+  SFX/sfx_fox 狐狸出现时的狐狸叫。参考视频0：57
+  SFX/sfx_birdcage_fall 笼子掉落音效。参考视频2：02
+  SFX/sfx_birdcage_openSmall 钥匙打开装麻雀的小鸟笼音效
+  SFX/sfx_birdcage_openLarge 用鸟鸟魔法打开装人的大鸟笼音效。参考视频2：24
+  SFX/sfx_firecircleRemove 火圈消失的音效
+  SFX/sfx_sparrowHitBanPai 麻雀撞班牌音效。参考视频4：34
+  SFX/sfx_burningPortal 燃烧传送门的打开音效。和循环音效同时触发。
+### 修改文件
+  SFX/sfx_slap SC04的耳光音效更新
+### 文件名修改
+  MUS/mus_SC15_sample => MUS/mus_SC15_01 根据场景需求进行版本标注
+
+########### 2025.04.02
+### 新增文件
+  AMB/amb_SC15.ogg 森林场景的环境音。音量平衡尚未完成，使用时可能需要放大音量
+  MUS/mus_SC15_sample.ogg 临时性音乐文件，风格参考
+
+########### 2025.03.31
+### 新增文件
+  SFX/sfx_frog_jump 青蛙在石头上蹦跶的湿漉漉的声音
+  SFX/sfx_frog_singleSound 青蛙单独一次的叫声
+  SFX/sfx_frog_splash 青蛙出水声
+### 修改文件
+  AMB/amb_frog 调整声音头
+  AMB/amb_SC11 调整环境音设计方向。更空旷
+  MUS/mus_SC11_loop 调整音乐填充程度。出于减少音乐质量损失的考虑所以是全音量的，使用时需要适量调低。个人建议-5db
+### 删除文件
+  SFX/sfx_frogAppear 文件拆分=>
+
+########### 2025.03.30
+### 新增文件
+  AMB/amb_cageShaking 笼子摇动的循环音
+  AMB/amb_creatureMoan 笼子里怪物循环声
+  AMB/amb_frog 青蛙出水后在石头上待机的循环音
+  AMB/amb_SC11 地窖整体的环境音
+  MUS/mus_SC11_loop 地窖部分背景音乐
+  SFX/sfx_footstep_cellarStone_01-05 地窖部分石头材质脚步声
+  SFX/sfx_chuckling 拿到纸女鬼后的音效
+  SFX/sfx_addOil 添加灯油的音效
+  SFX/sfx_footstep_cellarWood_01-07 地窖部分木头材质脚步声
+  SFX/sfx_frogAppear 青蛙出水再跳到石头顶的音效
+  SFX/sfx_spiderWeb 触发蜘蛛网后的音效
+### 修改记录
+  SFX/sfx_statueWang_handSuccess 音效更新，增加了机关摩擦声
+### 文件名修改
+  SFX/sfx_footstep_cave_x => SFX/sfx_footstep_cellarWood_01-07 or SFX/sfx_footstep_cellarStone_01-05 区分材质
+
+########### 2025.03.27
+### 新增文件
+  SFX/sfx_footstep_cave_X 地窖里的脚步声
+
+########### 2025.03.24
+### 新增文件
+  AMB/amb_hens_withWang_EQadj 抓鸡的时候在王师傅门外听到门里的鸡叫声。为amb_withWang的调整EQ版本。
+
+########### 2025.03.21
+### 修改记录
+  SFX/sfx_note_clickText 音效调整
+  SFX/sfx_statueWang_handSuccess 音效调整
+  SFX/sfx_hens_triggered 音效修正
+
+########### 2025.03.20
+### 新增文件
+  SFX/sfx_hens_singleRunFall 开始找鸡后有一个鸡从院子里跑进屋里，有一个鸡从树上掉下来的时候的音效
+  SFX/sfx_note_clickCollectible 笔记本，点击格子里的收集品 
+  SFX/sfx_note_closeCollectible 关闭收集品文字详情
+  SFX/sfx_note_openCollectible 点击收集品右侧界面后出现文字详情界面
+  SFX/sfx_note_clickText 笔记本，所有与文字相关的选项、任务等的点击音效
+  AMB/amb_hens_single 开始找鸡以后画面上/场景中有没有抓到的鸡的时候的循环环境音。加载一个循环就行，不用多只鸡加载好几个。
+### 修改记录
+  AMB/amb_hens_inYard 音量调整
+  SFX/sfx_note_close 关闭笔记本音效调整
+### 文件替换
+  SFX/sfx_quest_click => SFX/sfx_note_clickText 整合所有类似性质音效，标明作用
+
+########### 2025.03.18
+### 新增文件
+  SFX/sfx_zhangFalldown 小张从椅子上摔下来
+  SFX/sfx_kid_steps 打开箱子后小孩脚印音效
+### 修改记录
+  SFX/sfx_statueWang_handAdjust 版本合并&调整
+  SFX/sfx_statueWang_eye 版本合并&调整
+  SFX/sfx_statueWang_handSuccess 音效调整
+  SFX/sfx_turningStone 音效合并，转动石敢当和地窖门打开为同一个音效。
+### 文件格式调整
+- AMB和MUS中所有.wav格式文件被替换为.ogg文件
+
+########### 2025.03.18
+### 新增文件
+  SFX/sfx_statueWang_takeMace 取下王灵官鞭 
+  SFX/sfx_hens_triggered 触发鸡叫提示去要鸡
+  SFX/sfx_hens_escape 鸡被惊动跑散
+  SFX/sfx_coins 铜币音效
+  SFX/sfx_keyUnlock 钥匙开柴房门锁
+  SFX/sfx_statueWang_eye01/02 为王灵官放眼睛。01是刻意加了点血肉声，02是纯木头声。
+  AMB/amb_hens_withWang 王大厨手里的鸡扑腾声
+  AMB/amb_hens_inYard 鸡群在后院里的循环唠叨声
+### 修改记录
+  SFX/sfx_statueWang_handAdjust_01/02 调整王灵官手势，01和02对比一下哪个觉得更好
+### 文件名修改
+- amb_hens => amb_hens_inYard 文件具体场景标明
+
+########### 2025.03.17
+### 新增文件
+  AMB/amb_hens 后院场景母鸡环境音循环
+  SFX/sfx_turningStone 下地窖转石敢当
+### 修改记录
+  amb_chatting 调整循环接头
+  amb_SC04-SC10 调整循环接头
+  mus_SC01-03_loop 调整循环接头
+  sfx_slap 调整效果
+  sfx_vaseBroken 调整效果
+
+########### 2025.03.15
+### 文件名修改
+- sfx_note_open_01/02 => sfx_note_open 合并版本
+### 新增文件
+  SFX/sfx_door_open
+  SFX/sfx_door_close 后院场景的关门开门。进屋里开门，出屋回到院子关门
+### 修改记录
+- sfx_note_flip_01-05 淡入淡出调整&音量平衡
+
+########### 2025.03.13
+### 修改记录
+- amb_chatting 去除燃烧音
+- mus_HongLou_Corridor 音效调整
+- mus_HongLou_Sijitou 音效调整
+- sfx_burningPaper
+- sfx_item_drag
+- sfx_mirrorClean 去除液体海绵音
+- sfx_reward 长度调整
+### 删除文件
+- sfx_chest_open_01.wav
+- sfx_chest_open_02.wav
+  //替换合并为sfx_chest_open.wav
+- sfx_guanYinActivate_02.wav
+- sfx_guanYinHalo.wav
+  //替换合并为guanYinActivate.wav
+- sfx_HongLou_StageIntro.wav
+  //不再需要StageIntro.wav
+### 文件名修改
+- sfx_collectable_01 => sfx_collectible 输入错误&版本修正
+  
+########### 2025.03.11
+### 新增文件
+  AMB/amb_burningPaperMoney.wav 烧纸钱场景循环环境音
+  SFX/sfx_footstep_stone_8-15 新的一组脚步声，和1-7是不同的场次录制的。
+  SFX/sfx_statueWang_handAdjust_01.wav 王灵官雕像，调整手指音效1。单独一声的机械音
+  SFX/sfx_statueWang_handAdjust_02.wav 王灵官雕像，调整手指备选音效。3声咔哒模拟齿轮效果
+  SFX/sfx_statueWang_handSuccess 王灵官雕像，手指到达正确位置时的音效
+  SFX/sfx_door_Open SC04及以后，小院场景开门的音效
+### 修改记录
+- sfx_redCloth 音效调整
+- sfx_guanYinCloth 音效调整
+
+########### 2025.03.09
+### 新增文件
+  AMB/amb_S04-S10.wav SC04的环境音效。假想可用到SC10
+  SFX/sfx_collectble 收集品音效，实际为之前版本的sfx_clue。待检查。
+### 修改记录
+- sfx_sword_drop 开头音量/淡入淡出修改
+- sfx_sword_in 插剑速度修改
+- sfx_burningPaper 调整杂音
+- sfx_guanYinActivate_02 将sfx_guanYinActivate和sfx_guanYinHalo直接结合并附带足够长淡出的光环效果的结合体。预期可替代sfx_guanYinActivate并且不再需要sfx_guanYinHalo
+- sfx_chest_open 修改文件以替换sfx_chest_open_01和02
+- sfx_item_drag 音效更新
+
+########### 2025.03.06
+### 新增文件
+  MUS/mus_inMirror_01.wav SC01第一次与镜子交互后的短暂四击头。
+  MUS/mus_inMirror_02.wav SC01，当放下剑后镜子内女鬼演出，伴有相关音效。
+
+########### 2025.03.05
+### 修改记录
+- 目前现有各音频文件之间已经进行整体音量均衡，为最终版，需要覆盖更新。目前音量对标100%，但是可根据实际情况适当增减调整。
+- 文件：amb_chatting现已集成了燃烧音效，因此不需要在S03继续加载燃烧音效。amb_burning_A和B仅作为S02走廊段燃烧音效选用。
+- sfx_footstep_stone_05已修改，应该可以正常使用。
+
+########### 2025.03.04
+### 新增文件
+  MUS/mus_SC01_Loop.wav 第一幕背景音乐文件。可循环播放，建议淡入淡出。
+
+########### 2025.03.04
+### 修改记录
+- 脚步声 sfx_footstep_stone_0X调整更新
+- 观音像点墨音效更新：增加了一些光晕音效至sfx_guanYinActivate。
+### 新增文件
+观音光环配合用循环音效 = sfx_guanYinHalo。紧接在guanYinActivate之后循环播放。
+  // 最好能无缝接着播放，如果不行的话我缝合一下
+拿红布 = sfx_redCloth
+观音像披衣服 = sfx_guanYinCloth
+擦镜子血 = sfx_mirrorClean
+给元宝 = sfx_reward
+  // 测试下这个音效听上去感觉如何。动画较长所以留了些余量以防对话走太慢。如果需要循环体则另行提供
+
